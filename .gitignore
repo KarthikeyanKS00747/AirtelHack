@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.pytest_cache/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+.npm
+*.log
+
+# Environment variables
+backend/.env
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
